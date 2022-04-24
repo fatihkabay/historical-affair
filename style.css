@@ -1,0 +1,216 @@
+body {
+    background: #111;
+    font-size: 18px;
+    color: #FFF;
+}
+
+h1 {
+    width: 100%;
+    font-size: 1.7em;
+    text-align: center;
+    margin: 20px 0 40px;
+    padding: 0;
+    font-family: monospace;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.turkey-flag {
+    width: 60%;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.logo {
+    width: 15%;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.oibmtal-logo {
+    float: right;
+}
+
+.tübitak-logo {
+    float: left;
+}
+
+.container {
+    background: rgb(46, 46, 46);
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 2%;
+    box-shadow: 3px 2px 3px rgb(231, 225, 225);
+    -webkit-box-shadow: 0px 0px 3px 3px #FFFFFF;
+    box-shadow: 0px 0px 3px 3px #FFFFFF;
+}
+
+.right-content,
+.left-content {
+    float: left;
+    display: block;
+    width: 41.35%;
+    padding: 1% 2%;
+    margin-left: 5%;
+
+}
+
+.left-content {
+    border-right: 5px dotted #666;
+    text-align: right;
+}
+
+.left-content p {
+    margin: 150px 0 0;
+}
+
+.right-content p {
+    margin: 80px 0 150px;
+}
+
+.right-content {
+    margin: auto;
+}
+
+.container p {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.left-content .more-padding {
+    padding-right: 50%;
+}
+
+.right-content .more-padding {
+    padding-left: 50%;
+}
+
+.btn {
+    background-color: #555;
+    width: 130px;
+    height: 83px;
+    border-radius: 30px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    -webkit-box-shadow: 0px 0px 1.5px 2.5px #fff;
+    box-shadow: 0px 0px 1.5px 2.5px #fff;
+    text-align: center;
+    border-color: #333;
+    font-size: 17px;
+    
+
+}
+
+.btn:hover {
+    background-color: #bbb;
+    color: #111;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-left: 1%;
+}
+
+.hidden {
+    font-size: 0;
+
+}
+
+
+    @media only screen and (max-width: 1025px)
+    {
+        .turkey-flag{
+            width: 70%;
+            height: 200px;            
+
+        }
+    }
+    @media only screen and (max-width: 1025px)
+    {
+        h1{
+           font-size: 35px;          
+
+        }
+    }
+    @media only screen and (max-width: 1025px)
+    {
+        .turkey-flag{
+            width: 70%;
+            height: 200px;            
+
+        }
+    }
+    @media only screen and (max-width: 769px)
+    {
+        h1{
+            font-size: 35px;            
+
+        }
+    }
+    @media only screen and (max-width: 426px)
+    {
+        h1{
+            font-size: 25.6px;            
+
+        }
+    }
+    @media only screen and (max-width: 769px)
+    {
+        .btn{
+            width: 140px;  
+            height: 70px;          
+            font-size: small;
+            font-size: medium;
+        }
+    }
+    @media only screen and (max-width: 769px)
+    {
+        .turkey-flag{
+            width: 78%;            
+            height: 200px;
+        }
+    }
+    
+  
+    @media only screen and (max-width: 426px)
+    {
+        .btn{
+            width: 100px;            
+            height: 50px;
+            font-size: x-small;
+        }
+    }
+    @media only screen and (max-width: 542px)
+    {
+        .turkey-flag{
+            width: 90%;
+            height:150px;            
+
+        }
+    }
+    @media only screen and (max-width: 769px)
+    {
+        .logo{
+            width: 38.9%;            
+            height:150px;
+        }
+    }
+    @media only screen and (max-width: 426px)
+    {
+        .logo{
+            width: 35%;            
+            height: 80px;
+        }
+    }
+    
