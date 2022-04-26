@@ -86,11 +86,11 @@ h1 {
 }
 
 .left-content .more-padding {
-    padding-right: 50%;
+    padding-right: 60%;
 }
 
 .right-content .more-padding {
-    padding-left: 50%;
+    padding-left: 60%;
 }
 
 .btn {
@@ -127,7 +127,13 @@ h2 {
 
 }
 
-
+@media only screen and (max-width: 2000px)
+    {
+        .btn{
+            width: 250px;            
+            height:75px;
+        }
+    }
     @media only screen and (max-width: 1025px)
     {
         .turkey-flag{
@@ -199,10 +205,17 @@ h2 {
 
         }
     }
+    @media only screen and (max-width: 1024px)
+    {
+        .logo{
+            width: 150px;            
+            height:150px;
+        }
+    }
     @media only screen and (max-width: 769px)
     {
         .logo{
-            width: 38.9%;            
+            width: 150px;            
             height:150px;
         }
     }
@@ -213,4 +226,17 @@ h2 {
             height: 80px;
         }
     }
+    @media only screen and (max-width: 1025px)
+    {
+        .btn{
+            width: 165px;            
+            height:75px;
+        }
+    }
     
+    @media only screen and (max-width: 2500px)
+    {
+        .turkey-flag{
+            height: 220px;   
+        }
+ }
