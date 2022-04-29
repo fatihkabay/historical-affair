@@ -130,7 +130,7 @@ h2 {
 @media only screen and (max-width: 2000px)
     {
         .btn{
-            width: 250px;            
+            width: 40%;            
             height:75px;
         }
     }
@@ -152,7 +152,7 @@ h2 {
     @media only screen and (max-width: 1025px)
     {
         .turkey-flag{
-            width: 70%;
+            width: 80%;
             height: 200px;            
 
         }
@@ -170,14 +170,21 @@ h2 {
             font-size: 25.6px;            
 
         }
+    }   @media only screen and (max-width: 1025px)
+    {
+        .btn{
+            width: 70%;            
+            height:80px;
+            font-size: medium;
+        }
     }
     @media only screen and (max-width: 769px)
     {
         .btn{
-            width: 140px;  
-            height: 70px;          
-            font-size: small;
-            font-size: medium;
+            width: 70%;  
+            height: 80px;          
+            font-size: smaller;
+            
         }
     }
     @media only screen and (max-width: 769px)
@@ -192,8 +199,8 @@ h2 {
     @media only screen and (max-width: 426px)
     {
         .btn{
-            width: 100px;            
-            height: 50px;
+            width: 70%;            
+            height: 60px;
             font-size: x-small;
         }
     }
@@ -226,13 +233,7 @@ h2 {
             height: 80px;
         }
     }
-    @media only screen and (max-width: 1025px)
-    {
-        .btn{
-            width: 165px;            
-            height:75px;
-        }
-    }
+ 
     
     @media only screen and (max-width: 2500px)
     {
